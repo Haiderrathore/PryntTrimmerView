@@ -3,31 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D039CDA2DD74A63001BC3C9 /* AVAssetTimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D039CD12DD74A63001BC3C9 /* AVAssetTimeSelector.swift */; };
+		5D039CDB2DD74A63001BC3C9 /* HandlerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D039CD32DD74A63001BC3C9 /* HandlerView.swift */; };
+		5D039CDC2DD74A63001BC3C9 /* AssetVideoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D039CD02DD74A63001BC3C9 /* AssetVideoScrollView.swift */; };
+		5D039CDD2DD74A63001BC3C9 /* VideoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D039CCE2DD74A63001BC3C9 /* VideoScrollView.swift */; };
+		5D039CDE2DD74A63001BC3C9 /* VideoCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D039CCD2DD74A63001BC3C9 /* VideoCropView.swift */; };
+		5D039CDF2DD74A63001BC3C9 /* PryntTrimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D039CD42DD74A63001BC3C9 /* PryntTrimmerView.swift */; };
+		5D039CE02DD74A63001BC3C9 /* CropMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D039CCC2DD74A63001BC3C9 /* CropMaskView.swift */; };
+		5D039CE12DD74A63001BC3C9 /* ThumbSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D039CD62DD74A63001BC3C9 /* ThumbSelectorView.swift */; };
+		5D039CE22DD74A63001BC3C9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D039CD82DD74A63001BC3C9 /* Info.plist */; };
+		5D039CE32DD74A63001BC3C9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D039CD82DD74A63001BC3C9 /* Info.plist */; };
+		5D039CE42DD74A63001BC3C9 /* AVAssetTimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D039CD12DD74A63001BC3C9 /* AVAssetTimeSelector.swift */; };
+		5D039CE52DD74A63001BC3C9 /* HandlerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D039CD32DD74A63001BC3C9 /* HandlerView.swift */; };
+		5D039CE62DD74A63001BC3C9 /* AssetVideoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D039CD02DD74A63001BC3C9 /* AssetVideoScrollView.swift */; };
+		5D039CE72DD74A63001BC3C9 /* VideoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D039CCE2DD74A63001BC3C9 /* VideoScrollView.swift */; };
+		5D039CE82DD74A63001BC3C9 /* VideoCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D039CCD2DD74A63001BC3C9 /* VideoCropView.swift */; };
+		5D039CE92DD74A63001BC3C9 /* PryntTrimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D039CD42DD74A63001BC3C9 /* PryntTrimmerView.swift */; };
+		5D039CEA2DD74A63001BC3C9 /* CropMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D039CCC2DD74A63001BC3C9 /* CropMaskView.swift */; };
+		5D039CEB2DD74A63001BC3C9 /* ThumbSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D039CD62DD74A63001BC3C9 /* ThumbSelectorView.swift */; };
 		AB29084D24BE0D4500A55A86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB29084C24BE0D4500A55A86 /* AppDelegate.swift */; };
 		AB29085424BE0D4500A55A86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB29085224BE0D4500A55A86 /* Main.storyboard */; };
 		AB29085624BE0D4500A55A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB29085524BE0D4500A55A86 /* Assets.xcassets */; };
 		AB29085924BE0D4500A55A86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB29085724BE0D4500A55A86 /* LaunchScreen.storyboard */; };
-		AB4C682024BE24E000518B1A /* AssetVideoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C681624BE24E000518B1A /* AssetVideoScrollView.swift */; };
-		AB4C682124BE24E000518B1A /* AVAssetTimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C681724BE24E000518B1A /* AVAssetTimeSelector.swift */; };
-		AB4C682224BE24E000518B1A /* ThumbSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C681824BE24E000518B1A /* ThumbSelectorView.swift */; };
-		AB4C682324BE24E000518B1A /* VideoCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C681A24BE24E000518B1A /* VideoCropView.swift */; };
-		AB4C682424BE24E000518B1A /* VideoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C681B24BE24E000518B1A /* VideoScrollView.swift */; };
-		AB4C682524BE24E000518B1A /* CropMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C681C24BE24E000518B1A /* CropMaskView.swift */; };
-		AB4C682624BE24E000518B1A /* HandlerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C681E24BE24E000518B1A /* HandlerView.swift */; };
-		AB4C682724BE24E000518B1A /* PryntTrimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C681F24BE24E000518B1A /* PryntTrimmerView.swift */; };
 		ABBCDAF924BE101700A4BF18 /* VideoCropperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBCDAF524BE101700A4BF18 /* VideoCropperViewController.swift */; };
 		ABBCDAFA24BE101700A4BF18 /* AssetSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBCDAF624BE101700A4BF18 /* AssetSelectionViewController.swift */; };
 		ABBCDAFB24BE101700A4BF18 /* VideoTrimmerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBCDAF724BE101700A4BF18 /* VideoTrimmerViewController.swift */; };
 		ABBCDAFC24BE101700A4BF18 /* AVPlayer+isPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBCDAF824BE101700A4BF18 /* AVPlayer+isPlaying.swift */; };
-		ABBCDAFF24BE109500A4BF18 /* PryntTrimmerView in Frameworks */ = {isa = PBXBuildFile; productRef = ABBCDAFE24BE109500A4BF18 /* PryntTrimmerView */; };
 		ABBCDB0124BE11FD00A4BF18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBCDB0024BE11FD00A4BF18 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D039CCC2DD74A63001BC3C9 /* CropMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropMaskView.swift; sourceTree = "<group>"; };
+		5D039CCD2DD74A63001BC3C9 /* VideoCropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCropView.swift; sourceTree = "<group>"; };
+		5D039CCE2DD74A63001BC3C9 /* VideoScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoScrollView.swift; sourceTree = "<group>"; };
+		5D039CD02DD74A63001BC3C9 /* AssetVideoScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetVideoScrollView.swift; sourceTree = "<group>"; };
+		5D039CD12DD74A63001BC3C9 /* AVAssetTimeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAssetTimeSelector.swift; sourceTree = "<group>"; };
+		5D039CD32DD74A63001BC3C9 /* HandlerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlerView.swift; sourceTree = "<group>"; };
+		5D039CD42DD74A63001BC3C9 /* PryntTrimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryntTrimmerView.swift; sourceTree = "<group>"; };
+		5D039CD62DD74A63001BC3C9 /* ThumbSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbSelectorView.swift; sourceTree = "<group>"; };
+		5D039CD82DD74A63001BC3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB29084924BE0D4500A55A86 /* PryntTrimmerViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PryntTrimmerViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB29084C24BE0D4500A55A86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB29085324BE0D4500A55A86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,20 +53,11 @@
 		AB29085824BE0D4500A55A86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB29085A24BE0D4500A55A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB4C680B24BE248B00518B1A /* PryntTrimmerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PryntTrimmerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB4C681624BE24E000518B1A /* AssetVideoScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetVideoScrollView.swift; sourceTree = "<group>"; };
-		AB4C681724BE24E000518B1A /* AVAssetTimeSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVAssetTimeSelector.swift; sourceTree = "<group>"; };
-		AB4C681824BE24E000518B1A /* ThumbSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbSelectorView.swift; sourceTree = "<group>"; };
-		AB4C681A24BE24E000518B1A /* VideoCropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCropView.swift; sourceTree = "<group>"; };
-		AB4C681B24BE24E000518B1A /* VideoScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoScrollView.swift; sourceTree = "<group>"; };
-		AB4C681C24BE24E000518B1A /* CropMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropMaskView.swift; sourceTree = "<group>"; };
-		AB4C681E24BE24E000518B1A /* HandlerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandlerView.swift; sourceTree = "<group>"; };
-		AB4C681F24BE24E000518B1A /* PryntTrimmerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PryntTrimmerView.swift; sourceTree = "<group>"; };
 		ABBCDAF524BE101700A4BF18 /* VideoCropperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCropperViewController.swift; sourceTree = "<group>"; };
 		ABBCDAF624BE101700A4BF18 /* AssetSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetSelectionViewController.swift; sourceTree = "<group>"; };
 		ABBCDAF724BE101700A4BF18 /* VideoTrimmerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTrimmerViewController.swift; sourceTree = "<group>"; };
 		ABBCDAF824BE101700A4BF18 /* AVPlayer+isPlaying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+isPlaying.swift"; sourceTree = "<group>"; };
 		ABBCDB0024BE11FD00A4BF18 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CFB9DEE12511F968005EB79B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABBCDAFF24BE109500A4BF18 /* PryntTrimmerView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,11 +78,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D039CCF2DD74A63001BC3C9 /* Cropper */ = {
+			isa = PBXGroup;
+			children = (
+				5D039CCC2DD74A63001BC3C9 /* CropMaskView.swift */,
+				5D039CCD2DD74A63001BC3C9 /* VideoCropView.swift */,
+				5D039CCE2DD74A63001BC3C9 /* VideoScrollView.swift */,
+			);
+			path = Cropper;
+			sourceTree = "<group>";
+		};
+		5D039CD22DD74A63001BC3C9 /* Parents */ = {
+			isa = PBXGroup;
+			children = (
+				5D039CD02DD74A63001BC3C9 /* AssetVideoScrollView.swift */,
+				5D039CD12DD74A63001BC3C9 /* AVAssetTimeSelector.swift */,
+			);
+			path = Parents;
+			sourceTree = "<group>";
+		};
+		5D039CD52DD74A63001BC3C9 /* Trimmer */ = {
+			isa = PBXGroup;
+			children = (
+				5D039CD32DD74A63001BC3C9 /* HandlerView.swift */,
+				5D039CD42DD74A63001BC3C9 /* PryntTrimmerView.swift */,
+			);
+			path = Trimmer;
+			sourceTree = "<group>";
+		};
+		5D039CD72DD74A63001BC3C9 /* PryntTrimmerView */ = {
+			isa = PBXGroup;
+			children = (
+				5D039CCF2DD74A63001BC3C9 /* Cropper */,
+				5D039CD22DD74A63001BC3C9 /* Parents */,
+				5D039CD52DD74A63001BC3C9 /* Trimmer */,
+				5D039CD62DD74A63001BC3C9 /* ThumbSelectorView.swift */,
+			);
+			path = PryntTrimmerView;
+			sourceTree = "<group>";
+		};
+		5D039CD92DD74A63001BC3C9 /* Sources 2 */ = {
+			isa = PBXGroup;
+			children = (
+				5D039CD72DD74A63001BC3C9 /* PryntTrimmerView */,
+				5D039CD82DD74A63001BC3C9 /* Info.plist */,
+			);
+			path = "Sources 2";
+			sourceTree = "<group>";
+		};
 		AB29084024BE0D4500A55A86 = {
 			isa = PBXGroup;
 			children = (
 				AB29084B24BE0D4500A55A86 /* PryntTrimmerViewExample */,
-				AB4C680C24BE248B00518B1A /* PryntTrimmerView */,
 				AB29084A24BE0D4500A55A86 /* Products */,
 				ABBCDAFD24BE109500A4BF18 /* Frameworks */,
 			);
@@ -99,67 +154,12 @@
 				ABBCDAF724BE101700A4BF18 /* VideoTrimmerViewController.swift */,
 				AB29084C24BE0D4500A55A86 /* AppDelegate.swift */,
 				AB29085224BE0D4500A55A86 /* Main.storyboard */,
+				5D039CD92DD74A63001BC3C9 /* Sources 2 */,
 				AB29085524BE0D4500A55A86 /* Assets.xcassets */,
 				AB29085724BE0D4500A55A86 /* LaunchScreen.storyboard */,
 				AB29085A24BE0D4500A55A86 /* Info.plist */,
 			);
 			path = PryntTrimmerViewExample;
-			sourceTree = "<group>";
-		};
-		AB4C680C24BE248B00518B1A /* PryntTrimmerView */ = {
-			isa = PBXGroup;
-			children = (
-				AB4C681324BE24E000518B1A /* Sources */,
-			);
-			path = PryntTrimmerView;
-			sourceTree = "<group>";
-		};
-		AB4C681324BE24E000518B1A /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				CFB9DEE12511F968005EB79B /* Info.plist */,
-				AB4C681424BE24E000518B1A /* PryntTrimmerView */,
-			);
-			path = Sources;
-			sourceTree = SOURCE_ROOT;
-		};
-		AB4C681424BE24E000518B1A /* PryntTrimmerView */ = {
-			isa = PBXGroup;
-			children = (
-				AB4C681524BE24E000518B1A /* Parents */,
-				AB4C681824BE24E000518B1A /* ThumbSelectorView.swift */,
-				AB4C681924BE24E000518B1A /* Cropper */,
-				AB4C681D24BE24E000518B1A /* Trimmer */,
-			);
-			path = PryntTrimmerView;
-			sourceTree = "<group>";
-		};
-		AB4C681524BE24E000518B1A /* Parents */ = {
-			isa = PBXGroup;
-			children = (
-				AB4C681624BE24E000518B1A /* AssetVideoScrollView.swift */,
-				AB4C681724BE24E000518B1A /* AVAssetTimeSelector.swift */,
-			);
-			path = Parents;
-			sourceTree = "<group>";
-		};
-		AB4C681924BE24E000518B1A /* Cropper */ = {
-			isa = PBXGroup;
-			children = (
-				AB4C681A24BE24E000518B1A /* VideoCropView.swift */,
-				AB4C681B24BE24E000518B1A /* VideoScrollView.swift */,
-				AB4C681C24BE24E000518B1A /* CropMaskView.swift */,
-			);
-			path = Cropper;
-			sourceTree = "<group>";
-		};
-		AB4C681D24BE24E000518B1A /* Trimmer */ = {
-			isa = PBXGroup;
-			children = (
-				AB4C681E24BE24E000518B1A /* HandlerView.swift */,
-				AB4C681F24BE24E000518B1A /* PryntTrimmerView.swift */,
-			);
-			path = Trimmer;
 			sourceTree = "<group>";
 		};
 		ABBCDAFD24BE109500A4BF18 /* Frameworks */ = {
@@ -262,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D039CE32DD74A63001BC3C9 /* Info.plist in Resources */,
 				AB29085924BE0D4500A55A86 /* LaunchScreen.storyboard in Resources */,
 				AB29085624BE0D4500A55A86 /* Assets.xcassets in Resources */,
 				AB29085424BE0D4500A55A86 /* Main.storyboard in Resources */,
@@ -272,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D039CE22DD74A63001BC3C9 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +289,14 @@
 				ABBCDAFB24BE101700A4BF18 /* VideoTrimmerViewController.swift in Sources */,
 				ABBCDAFA24BE101700A4BF18 /* AssetSelectionViewController.swift in Sources */,
 				ABBCDAF924BE101700A4BF18 /* VideoCropperViewController.swift in Sources */,
+				5D039CE42DD74A63001BC3C9 /* AVAssetTimeSelector.swift in Sources */,
+				5D039CE52DD74A63001BC3C9 /* HandlerView.swift in Sources */,
+				5D039CE62DD74A63001BC3C9 /* AssetVideoScrollView.swift in Sources */,
+				5D039CE72DD74A63001BC3C9 /* VideoScrollView.swift in Sources */,
+				5D039CE82DD74A63001BC3C9 /* VideoCropView.swift in Sources */,
+				5D039CE92DD74A63001BC3C9 /* PryntTrimmerView.swift in Sources */,
+				5D039CEA2DD74A63001BC3C9 /* CropMaskView.swift in Sources */,
+				5D039CEB2DD74A63001BC3C9 /* ThumbSelectorView.swift in Sources */,
 				ABBCDB0124BE11FD00A4BF18 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,14 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB4C682524BE24E000518B1A /* CropMaskView.swift in Sources */,
-				AB4C682724BE24E000518B1A /* PryntTrimmerView.swift in Sources */,
-				AB4C682324BE24E000518B1A /* VideoCropView.swift in Sources */,
-				AB4C682024BE24E000518B1A /* AssetVideoScrollView.swift in Sources */,
-				AB4C682424BE24E000518B1A /* VideoScrollView.swift in Sources */,
-				AB4C682624BE24E000518B1A /* HandlerView.swift in Sources */,
-				AB4C682124BE24E000518B1A /* AVAssetTimeSelector.swift in Sources */,
-				AB4C682224BE24E000518B1A /* ThumbSelectorView.swift in Sources */,
+				5D039CDA2DD74A63001BC3C9 /* AVAssetTimeSelector.swift in Sources */,
+				5D039CDB2DD74A63001BC3C9 /* HandlerView.swift in Sources */,
+				5D039CDC2DD74A63001BC3C9 /* AssetVideoScrollView.swift in Sources */,
+				5D039CDD2DD74A63001BC3C9 /* VideoScrollView.swift in Sources */,
+				5D039CDE2DD74A63001BC3C9 /* VideoCropView.swift in Sources */,
+				5D039CDF2DD74A63001BC3C9 /* PryntTrimmerView.swift in Sources */,
+				5D039CE02DD74A63001BC3C9 /* CropMaskView.swift in Sources */,
+				5D039CE12DD74A63001BC3C9 /* ThumbSelectorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,13 +457,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GXH324789Z;
+				DEVELOPMENT_TEAM = 79AJ56H2YB;
 				INFOPLIST_FILE = PryntTrimmerViewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.hhk.PryntTrimmerViewExample;
+				PRODUCT_BUNDLE_IDENTIFIER = org.hhk.PryntTrimmerViewExample.test2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -465,13 +475,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GXH324789Z;
+				DEVELOPMENT_TEAM = 79AJ56H2YB;
 				INFOPLIST_FILE = PryntTrimmerViewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.hhk.PryntTrimmerViewExample;
+				PRODUCT_BUNDLE_IDENTIFIER = org.hhk.PryntTrimmerViewExample.test2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

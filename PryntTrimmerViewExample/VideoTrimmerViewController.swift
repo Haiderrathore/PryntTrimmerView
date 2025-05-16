@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 import MobileCoreServices
-import PryntTrimmerView
+//import PryntTrimmerView
 
 /// A view controller to demonstrate the trimming of a video. Make sure the scene is selected as the initial
 // view controller in the storyboard

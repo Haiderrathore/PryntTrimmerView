@@ -8,7 +8,7 @@
 
 import UIKit
 import Photos
-import PryntTrimmerView
+//import PryntTrimmerView
 import AVFoundation
 
 /// A view controller to demonstrate the cropping of a video. Make sure the scene is selected as the initial

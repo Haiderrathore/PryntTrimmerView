@@ -21,12 +21,6 @@ public protocol TrimmerViewDelegate: AnyObject {
 // range
 @IBDesignable public class TrimmerView: AVAssetTimeSelector {
 
-    required public init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        setupSubviews()
-    }
-
-
     // MARK: - Properties
 
     // MARK: Color Customization
